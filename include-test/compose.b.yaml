@@ -1,0 +1,4 @@
+services:
+  worker:
+    image: busybox:latest
+    command: ["sh", "-c", "while true; do echo worker; sleep 30; done"]
